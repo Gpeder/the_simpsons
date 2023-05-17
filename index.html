@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+        <html lang="pt-BR">
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./src/img/favicon-16x16.png" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+	
+        <link rel="stylesheet" href="./src/css/style.css">
+		<title>Simpsons - O filme</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/op/Simpsons • Abertura •.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="cabecalho">
+			<a>
+				<img class="logo" src="./src/img/logo.png" alt="logo chapéu Mario" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Detalhes</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/img/title.png" alt="imagem do título do filme" />
+				<p class="descricao">Homer Simpson polui o lago de Springfield e acaba causando sérios danos para a cidade. Para amenizar o problema, a solução é colocar toda a cidade dentro de uma bolha, se isolando do resto do mundo.</p>
+				<button class="botao-trailer">Veja o trailer</button>
+			</div>
+			<img class="mario" src="./src/img/banner-sofa.png" />
+
+			<div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">X</span>
+					<iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/Pc8ZwPBPxNM" title="Os Simpsons  O Filme   Trailer Dublado Oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script src="./src/script/script.js"></script>
+</html>
